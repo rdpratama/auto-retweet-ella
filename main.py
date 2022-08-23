@@ -10,7 +10,7 @@ screen_name = 'AM_EllaJKT48'
 
 user_id = '1487291928257654785'
 
-response = client.get_users_tweets(user_id, max_results='5)
+response = client.get_users_tweets(user_id, max_results='5')
 
 # By default, only the ID and text fields of each Tweet will be returned
 # for tweet in response.data:
